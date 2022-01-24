@@ -5,7 +5,7 @@
 /* Se pone un signo $ , significa que es una variable del DOM */
 /* let $title = document.getElementById('title');
 
-title.textContent = 'Título escrito desde JS'; */
+$title.textContent = 'Título escrito desde JS'; */
 
 /* 
 Por clase
@@ -15,6 +15,7 @@ Por id
 let $title = document.querySelector('#nombreId');
 
 Si no colocamos nada, se selecciona una etiqueta
+let $title = document.querySelector('span');
 
 Con querySelector, si ponemos una etiqueta, devolverá la primera que se encuentre
  */
@@ -52,3 +53,6 @@ document.body.insertAdjacentElement("afterbegin", subtitulo); // mucho cuidado
 // para insertar un elemento con referencia a otro, se coloca su variable
 $title.insertAdjacentElement("afterend", subtitulo);
 $title.remove();
+
+let $p_labels = document.getElementsByTagName('p');
+console.log(typeof $p_labels);
