@@ -1,4 +1,4 @@
-# Ejercicios semana 5
+# Ejercicios semana 6
 
 Mauricio Díaz Segura
 
